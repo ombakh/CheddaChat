@@ -10,9 +10,13 @@
 </head>
 
 <body>
-    <ul id="messages"></ul>
-    <input id="messageInput" autocomplete="off" />
-    <button onclick="sendMessage()">Send</button>
+    <div class="chat-container">
+        <ul id="messages"></ul>
+        <div class="input-area">
+            <input id="messageInput" autocomplete="off" placeholder="Enter message here..."/>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
 </body>
 
 </html>
